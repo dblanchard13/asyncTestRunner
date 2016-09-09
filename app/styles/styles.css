@@ -1,0 +1,80 @@
+require('materialize-css')
+
+body {
+  background-color: whitesmoke;
+  color: dimgray;
+}
+
+#tests-container, #actions-container {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+}
+
+#actions-container {
+  height: 100px;
+  margin: 15px;
+  margin-bottom: -25px;
+}
+
+.centered-shell {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.test {
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.test-text {
+  line-height: 25px;
+  padding: 5px; 
+}
+
+.test-hr {
+  width: 80%
+}
+
+.count-text {
+  margin: 5px;
+}
+
+#user-alert.hidden{
+  opacity: 0;
+  background-color: white;
+}
+
+#user-alert {
+  margin: 5px;
+  margin-right: 11vw;
+  float: right;
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+   opacity: 1;
+}
+
+#alerts-container {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+hr {
+  width: 80vw;
+}
+
